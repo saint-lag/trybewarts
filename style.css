@@ -1,22 +1,22 @@
-#div-family{
-    display: flex;
-    flex-direction: column;
+#div-family {
+  display: flex;
+  flex-direction: column;
 }
 
-#div-label-checkbox{
-    display: flex;
-    flex-direction: column;
+#div-label-checkbox {
+  display: flex;
+  flex-direction: column;
 }
 
-#div-checkbox{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 250px;
+#div-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 250px;
 }
 
-.checkbox{
-    width: 30px;
+.checkbox {
+  width: 30px;
 }
 
 * {
@@ -51,9 +51,36 @@ main {
   margin: 30px;
 }
 
+#trybewarts-login {
+  display: flex;
+}
+
+#main-form {
+  width: 675px;
+  font-size: 20px;
+  flex-flow: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#main-form h2 {
+  font-size: 30px;
+  margin-bottom: 200px;
+  width: auto;
+  color: rgb(114, 110, 117);
+}
+
+#main-form form {
+  width: auto;
+}
+
 .trybewarts-logo {
   display: flex;
+}
 
+#trybewart-login {
+  display: flex;
+  width: 675px;
 }
 
 #trybewarts-header-title {

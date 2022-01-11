@@ -10,27 +10,32 @@
 
 <body>
     <header class="header">
-        <img src="images/trybewarts-header-logo.svg" alt="trybewarts-logo" width="75px">
+        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="trybewarts-logo" width="75px">
         <h1 id="trybewarts-header-title">Trybewarts</h1>
         <form id="trybewart-login" class="trybewarts-login" action="" method="get">
             <input type="text" name="email" placeholder="Email" required>
             <input type="text" name="password" placeholder="Senha" required>
             <button id="login-button" type="submit" form="trybewart-login">Entrar</button>
-
         </form>
     </header>
     <main>
-        <form action="" method="get" id="evaluation-form">
-            <input type="text" id="input-name" placeholder="Nome">
-            <input type="text" id="input-lastname" placeholder="Sobrenome">
-            <input type="text" id="input-email" placeholder="Email">
-            <select name="house" id="house">
-                <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-                <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-                <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                <option value="Pytherina" id="pytherina-house">Pytherina</option>
-            </select>
-        </form>
+        <div id="main-form">
+            <h2>Formulário de Avaliação</h2>
+            <form action="" method="get" id="evaluation-form">
+                <input type="text" id="input-name" placeholder="Nome">
+                <input type="text" id="input-lastname" placeholder="Sobrenome">
+                <br>
+                <input type="text" id="input-email" placeholder="Email" aria-label="Casa:">
+                <label for="house">Casa:</label>
+                <select name="house" id="house">
+                    <option selected disabled>Escolha uma casa</option>
+                    <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                    <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                </select>
+            </form>
+        </div>
         <img src="images/trybewarts-colored.svg" alt="trybewart-logo-colored" id="trybewarts-forms-logo" height="500px">
     </main>
     <!-- 11 adiante -->
