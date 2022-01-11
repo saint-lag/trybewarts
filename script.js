@@ -1,34 +1,27 @@
-<<<<<<< HEAD
-var email = document.querySelector('[name="email"]').value;
-var senha = document.querySelector('[name="password"]').value;
+var email = document.getElementById('email');
+var senha = document.getElementById('password');
 const buttonEnviar = document.getElementById('submit-btn');
 const agreement = document.getElementById('agreement');
-=======
+
 // Problema na funcionalidade do formulário (alerta)
 
-document
-  .querySelector("#login-button")
-  .addEventListener("click", function (event) {
+document.querySelector('#login-button').addEventListener('click', () => {
     event.preventDefault();
-    var email = document.querySelector('[name="email"]').value;
-    var senha = document.querySelector('[name="password"]').value;
-  });
->>>>>>> bfaaa13a2d5726bfecb5689793d47e342e5856bf
-
-if (email === "tryber@teste.com" && senha === "123456") {
-  alert("Olá, Tryber!");
-} else if (email === "" || senha === "") {
-} else {
-  alert("Email ou senha inválidos.");
-}
+    if (email.value === 'tryber@teste.com' && senha.value === '123456') {
+      alert('Olá, Tryber!');
+    } else if (email === '' || senha === '') {
+  } else {
+      alert('Email ou senha inválidos.');
+    }
+})
 
 function habilitaButton() {
-  event.preventDefault();
   if (document.getElementById('agreement').value === '') {
     buttonEnviar.disabled = true;
   } else {
     buttonEnviar.disabled = false;
+    console.log('teste');
   }
 }
 
-agreement.addEventListener('change', habilitaButton);
+agreement.addEventListener('change', habilitaButton); 
