@@ -1,3 +1,24 @@
+#div-family{
+    display: flex;
+    flex-direction: column;
+}
+
+#div-label-checkbox{
+    display: flex;
+    flex-direction: column;
+}
+
+#div-checkbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.checkbox{
+    width: 30px;
+}
+
 * {
   margin: 0;
 }
