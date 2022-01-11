@@ -30,9 +30,36 @@ main {
   margin: 30px;
 }
 
+#trybewarts-login {
+  display: flex;
+}
+
+#main-form {
+  width: 675px;
+  font-size: 20px;
+  flex-flow: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#main-form h2 {
+  font-size: 30px;
+  margin-bottom: 200px;
+  width: auto;
+  color: rgb(114, 110, 117);
+}
+
+#main-form form {
+  width: auto;
+}
+
 .trybewarts-logo {
   display: flex;
+}
 
+#trybewart-login {
+  display: flex;
+  width: 675px;
 }
 
 #trybewarts-header-title {
