@@ -9,73 +9,31 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
+        <img src="images/trybewarts-header-logo.svg" alt="trybewarts-logo" width="75px">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form id="trybewart-login" class="trybewarts-login" action="" method="get">
+            <input type="text" name="email" placeholder="Email" required>
+            <input type="text" name="password" placeholder="Senha" required>
+            <button id="login-button" type="submit" form="trybewart-login">Entrar</button>
+
+        </form>
     </header>
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <p>comecando akki</p>
+    <main>
+        <form action="" method="get" id="evaluation-form">
+            <input type="text" id="input-name" placeholder="Nome">
+            <input type="text" id="input-lastname" placeholder="Sobrenome">
+            <input type="text" id="input-email" placeholder="Email">
+            <select name="house" id="house">
+                <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+        </form>
+        <img src="images/trybewarts-colored.svg" alt="trybewart-logo-colored" id="trybewarts-forms-logo" height="500px">
+    </main>
+    <!-- 11 adiante -->
     <div id="block3">
         <div id="div-family">
             <label for="" id="label-family">Qual sua família?</label>
@@ -147,10 +105,7 @@
              <input type="radio" name="rate" id="10" value="10">10
             </label>
         </div>
-
     </div>
-
-
-
+</body>
     <script src="script.js"></script>
 </html>
