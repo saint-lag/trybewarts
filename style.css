@@ -70,3 +70,7 @@ main {
   background-color: rgb(149, 47, 149);
   color: white;
 }
+#block4{
+    display: flex;
+    flex-direction: column;
+}
