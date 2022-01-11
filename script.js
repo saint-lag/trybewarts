@@ -3,8 +3,6 @@ const senha = document.getElementById('password');
 const buttonEnviar = document.getElementById('submit-btn');
 const agreement = document.getElementById('agreement');
 
-// Problema na funcionalidade do formulário (alerta)
-
 document.querySelector('#login-button').addEventListener('click', () => {
   event.preventDefault();
   if (email.value === 'tryber@teste.com' && senha.value === '123456') {
