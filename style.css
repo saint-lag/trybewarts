@@ -6,16 +6,33 @@
   --verde-trybe: rgb(50, 167, 145);
 }
 
-.header {
+body {
+  color: black;
+}
+
+.header , header {
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: var(--verde-trybe);
 }
 
+main {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
 .trybewarts-logo {
   display: flex;
-  size: 10px;
+
 }
 
 #trybewarts-header-title {
@@ -23,7 +40,12 @@
   font-size: 40px;
 }
 
-/* so para marcar o comeco  */
-body {
-  color: black;
+#evaluation-form {
+  width: 675px;
+  flex-direction: column;
+}
+
+#login-button {
+  background-color: rgb(149, 47, 149);
+  color: white;
 }
