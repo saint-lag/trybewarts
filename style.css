@@ -71,7 +71,12 @@
 
 
 
+
+
+
+
 /* so para marcar o comeco  */
-body{
-    color: black; 
+#div-family{
+    display: flex;
+    flex-direction: column;
 }
