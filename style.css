@@ -45,6 +45,7 @@ body {
 }
 
 main {
+  padding-top: 200px;
   height: 800px;
   display: flex;
   align-items: center;
