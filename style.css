@@ -12,7 +12,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 250px;
+  width: 675px;
 }
 
 .checkbox {
@@ -20,7 +20,7 @@
 }
 
 * {
-  margin: 0;
+  margin: 3px;
 }
 
 :root {
@@ -35,6 +35,7 @@ body {
   top: 0;
   right: 0;
   left: 0;
+  margin: 0;
   position: fixed;
   height: 100px;
   display: flex;
@@ -51,21 +52,38 @@ main {
   margin: 30px;
 }
 
+footer {
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 50px;
+  background-color: rgb(190, 190, 190);
+  color: rgb(116, 116, 116);
+  text-align: center;
+}
+
+form {
+  display: flex;
+}
+
 #trybewarts-login {
   display: flex;
 }
 
 #main-form {
+  padding-top: 400px;
+  padding-bottom: 150px;
   width: 675px;
   font-size: 20px;
-  flex-flow: column;
   text-align: center;
   justify-content: center;
 }
 
 #main-form h2 {
   font-size: 30px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
   width: auto;
   color: rgb(114, 110, 117);
 }
@@ -91,13 +109,28 @@ main {
 #evaluation-form {
   width: 675px;
   flex-direction: column;
+  display: flex;
 }
 
 #login-button {
   background-color: rgb(149, 47, 149);
   color: white;
 }
-#block4{
-    display: flex;
-    flex-direction: column;
+
+#block4 {
+  display: flex;
+  flex-direction: column;
+}
+
+#submit-btn {
+  background-color: var(--verde-trybe);
+  color: white;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+}
+
+#house , #input-email , #input-lastname , #input-name {
+  width: 200px;
+  flex: 1;
 }
