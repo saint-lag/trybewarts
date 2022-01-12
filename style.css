@@ -40,6 +40,7 @@
   margin-bottom: 50px;
   color: rgb(114, 110, 117);
   width: 675px;
+  text-align: center;
 }
 
 main {
@@ -147,4 +148,22 @@ form {
   width: 675px;
   display: flex;
   flex-wrap: wrap;
+}
+
+#div-label-radio {
+  display: flex;
+}
+
+#nome-sobrenome {
+  display: flex;
+  flex-grow: 1;
+}
+
+#email-casa {
+  display: flex;
+  flex-grow: 1;
+}
+
+#trybewarts-forms-logo {
+  margin-top: 200px;
 }
