@@ -173,3 +173,7 @@ form {
   margin-top: 150px;
   padding-right: 150px;
 }
+
+#div-counter{
+  display: flex;
+}
