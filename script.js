@@ -1,7 +1,5 @@
 const email = document.getElementById('email');
 const senha = document.getElementById('password');
-const buttonEnviar = document.getElementById('submit-btn');
-const agreement = document.getElementById('agreement');
 
 document.querySelector('#login-button').addEventListener('click', (event) => {
 	event.preventDefault();
@@ -21,6 +19,7 @@ function habilitaButton() {
 	}
 }
 
+const buttonEnviar = document.getElementById('submit-btn');
 const evaluationForm = document.getElementById('evaluation-form');
 
 buttonEnviar.addEventListener('click', () => {
@@ -49,4 +48,13 @@ buttonEnviar.addEventListener('click', () => {
 	}
 });
 
+const agreement = document.getElementById('agreement');
+
 agreement.addEventListener('change', habilitaButton);
+
+const textA = document.getElementById('textarea');
+const counter = document.getElementById('counter');
+
+textA.addEventListener('input', () => {
+	counter.innerText = 500 - textA.value.length;
+});

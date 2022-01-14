@@ -115,14 +115,18 @@
                 </div>
                 <div id="div-textarea-label">
                     <label for="" class="textarea">Deixe seu comentário:</label>
-                    <textarea name="" id="textareat" cols="30" rows="10" maxlength="500"></textarea>
+                    <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+                    <div id="div-counter">
+                        <label for="">Contador : </label>
+                        <p id="counter" >500</p>       
+                     </div>             
                 </div>
-                <br>
-                <!-- Como colocar essa label abaixo no topo da linha? Com Flex? -->
-                <label for="" id="label-infos">Você concorda com o uso das informações acima?
-                    <input type="checkbox" name="" id="agreement">
-                </label>
-                <button type="submit" disabled=true id="submit-btn">Enviar</button>
+                <div id="checkbox-button">
+                    <label for="" id="label-infos">Você concorda com o uso das informações acima?
+                        <input type="checkbox" name="" id="agreement">
+                    </label>
+                    <button type="submit" disabled=true id="submit-btn">Enviar</button>
+                </div>
             </form>
         </div>
         <img src="images/trybewarts-colored.svg" alt="trybewart-logo-colored" id="trybewarts-forms-logo" height="500px">
