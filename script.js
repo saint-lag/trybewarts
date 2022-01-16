@@ -1,5 +1,6 @@
 const email = document.getElementById('email');
 const senha = document.getElementById('password');
+const buttonEnviar = document.getElementById('submit-btn');
 
 document.querySelector('#login-button').addEventListener('click', (event) => {
 	event.preventDefault();
@@ -19,7 +20,6 @@ function habilitaButton() {
 	}
 }
 
-const buttonEnviar = document.getElementById('submit-btn');
 const evaluationForm = document.getElementById('evaluation-form');
 
 buttonEnviar.addEventListener('click', () => {
