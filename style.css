@@ -21,7 +21,7 @@
   --verde-trybe: rgb(50, 167, 145);
 }
 
-.header, header {
+.header , header {
   top: 0;
   right: 0;
   left: 0;
@@ -127,7 +127,7 @@ form {
   margin-left: auto;
 }
 
-#house, #input-email, #input-lastname, #input-name {
+#house , #input-email , #input-lastname , #input-name {
   width: 150px;
   flex: 1;
 }
